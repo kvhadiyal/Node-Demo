@@ -1,0 +1,11 @@
+const config = {};
+config.SECRET = process.env.SECRET;
+config.MAX_RECORDS = 20;
+config.RESETPASSURL = `${process.env.URL}/reset-password`;
+config.RESETPASSEXPIRES = 600000; // miliseconds 10 minutes
+config.LOGINURL = `${process.env.URL}/login`;
+config.SIGNUPURL = `${process.env.URL}/create-account`;
+config.PROJECTNAME = 'DEMO';
+config.SIGNEDURLEXPIRES = 604800 // seconds 7 days  
+config.NO_REPLY = process.env.NO_REPLY;
+module.exports = config;
