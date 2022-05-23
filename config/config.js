@@ -1,0 +1,14 @@
+const config = {};
+config.SECRET = process.env.SECRET;
+config.MAX_RECORDS = 20;
+config.RESETPASSURL = `${process.env.URL}/reset-password`;
+config.RESETPASSEXPIRES = 600000; // miliseconds 10 minutes
+config.LOGINURL = `${process.env.URL}/login`;
+config.SIGNUPURL = `${process.env.URL}/create-account`;
+config.PROJECTNAME = 'Patient Management System';
+config.SIGNEDURLEXPIRES = 604800; // seconds 7 days  
+config.NO_REPLY = process.env.NO_REPLY;
+config.AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
+config.AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
+config.AWS_S3_BUCKET = "demo-node";
+module.exports = config;

@@ -1,0 +1,10 @@
+DBHOST=@cluster0.kizik.mongodb.net
+DBUSER=kalpesh
+DBPASSWORD=
+DATABASE=demo
+PORT=8000
+NODE_ENV=local
+ISSUER=DEMO
+AUDIENCE=http://demo.com
+URL=http://localhost:3000
+SALT_ROUNDS=10
